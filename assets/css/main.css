@@ -1,0 +1,67 @@
+body {
+    background-color: lightblue;
+}
+
+
+.app {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+/* COMPONENTS */
+
+.book-details-container{
+    display: flex;
+    margin: 10px;
+    padding: 15px;
+}
+
+.image {
+    width: 300px;
+    margin: auto 10px;
+}
+
+.book-app .book-list li{
+    display: inline-block;
+    background-color: lightskyblue;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.book-app .book-list li:hover{
+    cursor: pointer;
+}
+
+.read-more-btn{
+    padding: 10px;
+    margin: 10px;
+}
+
+.read-more-btn:hover{
+    cursor: pointer;
+}
+
+/* HELPERS */
+
+.clean-list {
+    list-style: none;
+}
+
+.expensive {
+    background-color: rgb(131, 17, 17);
+    color: white
+}
+
+.cheap {
+    background-color: green;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
